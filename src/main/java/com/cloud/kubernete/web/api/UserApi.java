@@ -42,7 +42,7 @@ public class UserApi extends BaseController {
         Map<String, Object> user = userService.checkAdminLogin(name, password);
 
         if(user == null){
-            renderFail(response,"登录失败1");
+            renderFail(response,"登录失败13");
         }else{
             CurrentUser cu = new CurrentUser();
             cu.setIcon("");
