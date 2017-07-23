@@ -10,6 +10,7 @@ import javax.servlet.http.HttpSession;
 import com.alibaba.fastjson.JSONObject;
 import com.cloud.kubernete.entity.CurrentUser;
 
+//基类
 public class BaseController {
 
     public static final boolean useJsonp = false;
