@@ -93,17 +93,17 @@
 	          <version>2.4.1</version>
     	</dependency>
     	
-	   	<!--  <dependency>
+	   	 <dependency>
 	          <groupId>com.google.code.gson</groupId>
 	          <artifactId>gson</artifactId>
-	   	</dependency> -->
+	   	</dependency>
        
         <!-- docker -->
-        <!-- <dependency>
+        <dependency>
    		 <groupId>com.github.docker-java</groupId>
    		 <artifactId>docker-java</artifactId>
     	 <version>3.0.7</version>
-		</dependency> -->
+		</dependency>
 		
         <!-- etcd -->
        <!--  <dependency>
@@ -111,6 +111,16 @@
 		    <artifactId>etcd4j</artifactId>
 		    <version>2.13.0</version>
 		</dependency> -->
+		
+		<!-- http通讯的包 -->
+		<dependency>
+		    <groupId>commons-httpclient</groupId>
+		    <artifactId>commons-httpclient</artifactId>
+		    <version>3.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.eclipse.core/org.eclipse.core.runtime -->
+		
+		
     </dependencies>
 
     <build>
